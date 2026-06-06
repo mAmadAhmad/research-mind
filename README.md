@@ -27,7 +27,7 @@ An agentic research assistant that:
 5. User can query saved knowledge base later
 
 ## Tech Stack
-- Agent brain: Claude via Anthropic API
+- Agent brain: Claude via Anthropic API / OpenAI API
 - Tool protocol: MCP (one server per source)
 - Backend: FastAPI
 - Storage: Local markdown files → later vector DB for RAG
@@ -42,7 +42,6 @@ An agentic research assistant that:
 
 ## Out of Scope (v1)
 - Google Drive integration
-- Resume management  
 - Real-time alerts or email digests
 - Frontend UI (CLI first)
 
